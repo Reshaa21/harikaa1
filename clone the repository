@@ -1,0 +1,8 @@
+git clone https://github.com/your-username/repo-name.git
+cd repo-name
+git checkout main
+git fetch origin
+git checkout -b feature/my-new-feature
+git add .
+git commit -m "Implemented my new feature"
+git push origin feature/my-new-feature
